@@ -1,0 +1,10 @@
+<aside xmlns:th="http://www.thymeleaf.org" th:fragment="adminSidebar" class="sidebar">
+  <a class="brand" th:href="@{/admin/dashboard}"><span class="brand-mark">C</span><span>Campus<span class="brand-light">Ride</span><small>TRANSPORT SYSTEM</small></span></a>
+  <div class="nav-label">WORKSPACE</div><nav class="side-nav">
+    <a th:href="@{/admin/dashboard}"><span>▦</span> Overview</a><a th:href="@{/admin/students}"><span>♙</span> Students & allocation</a>
+    <a th:href="@{/admin/buses}"><span>▰</span> Bus fleet</a><a th:href="@{/admin/routes}"><span>⌁</span> Routes & stops</a>
+    <a th:href="@{/admin/drivers}"><span>♧</span> Drivers</a><a th:href="@{/admin/updates}"><span>◉</span> Transport updates</a>
+    <a th:href="@{/admin/recovery}"><span>↗</span> Recovery requests</a><a th:href="@{/admin/events}"><span>▤</span> Event planning</a>
+    <a th:href="@{/admin/reports}"><span>▥</span> Reports</a>
+  </nav><div class="sidebar-foot"><span class="status-dot"></span> College fleet portal <small>Management workspace</small></div>
+</aside>

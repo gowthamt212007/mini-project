@@ -1,0 +1,4 @@
+<header xmlns:th="http://www.thymeleaf.org" th:fragment="topbar(title)" class="topbar">
+  <div class="topbar-title"><span class="eyebrow">CAMPUSRIDE · TRANSPORT CONTROL</span><h1 th:text="${title}">Dashboard</h1></div>
+  <div class="topbar-actions"><span class="live-pill"><i></i> Operations online</span><form th:action="@{/logout}" method="post"><button class="button button-quiet button-small" type="submit">Sign out</button></form></div>
+</header>
